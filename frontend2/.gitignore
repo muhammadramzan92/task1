@@ -1,0 +1,6 @@
+/node_modules
+/bower_components
+
+# Ignore package-lock files for Node.js projects
+package-lock.json
+yarn.lock
