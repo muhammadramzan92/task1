@@ -301,7 +301,7 @@ const creditsAvailable=(user?.subscription?.credits>0||user?.subscription?.statu
                           <p
                             style={{
                               position: "absolute",
-                              left: "34px",
+                              // left: "34px",
                               top: "8px",
                             }}
                           >
@@ -382,7 +382,7 @@ const creditsAvailable=(user?.subscription?.credits>0||user?.subscription?.statu
         {/* </div><div className="col-xl-8  col-lg-8  col-md-12 col-sm-12 col-xs-12"> */}
         <div className="col">
           <div className="right-box">
-            <div className="flex flex-col justify-center items-center">
+            <div className="gen-image flex flex-col justify-center items-center">
               {selectedImagesPreview.map((imageData, index) => (
                 <Col key={imageData.id} sm={6}>
                   <div className="selected-image">
@@ -489,7 +489,7 @@ const ImageGrid = ({
         <Button
           onClick={handleSubmit}
           className="bo"
-          disabled={!creditsAvailable}
+         
         >
           RENDER DESIGNS
         </Button>

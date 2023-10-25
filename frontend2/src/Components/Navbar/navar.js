@@ -137,7 +137,7 @@ const Navbar = () => {
             {showLoggedInText && (
               <div className="logedtext ">
                 <div className="loggedInText px-4 py-2 text-white">
-                  Your Credit: {UserInfo?.subscription?.status == "active" ? "Unlimited" : UserInfo?.subscription?.credits}
+                  Your Credit: {UserInfo?.subscription?.status === "active" ? "Unlimited" : UserInfo?.subscription?.credits}
                 </div>
               </div>
             )}

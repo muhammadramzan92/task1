@@ -261,6 +261,9 @@
   
 
 }
+.gen-image{
+  margin-left: 50px;
+}
 @media (min-width: 1581px) and (max-width: 2000px) {
   .left-box {
     width: 53vh !important;
