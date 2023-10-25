@@ -1,0 +1,78 @@
+.nsm7Bb-HzV7m-LgbsSe{
+  border: none !important;
+  color: white !important;
+}
+.nsm7Bb-HzV7m-LgbsSe-MJoBVe{
+  /* max-width: 400px; */
+    background: linear-gradient( 90deg, rgba(230, 0, 126, 1) 0%, rgba(102, 36, 131, 1) 73% ) !important;
+    border: none !important;
+    border-radius: 25px;
+    color: white !important;
+    cursor: pinter;
+    font-family: "Poppins", sans-serif !important;
+}
+.signup-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.newb1,
+.signup-button {
+  background: linear-gradient(to right, #bd0c80, #861b82);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn-login:hover {
+  background-color: #ff8e61;
+  color: #ffffff;
+}
+.sub-heading1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+  align-items: center;
+}
+.card-body {
+  margin-left: 6rem;
+}
+.S9gUrf-YoZ4jf{
+  display: flex !important;
+  justify-content: center !important;
+}
+.main-text2 {
+  background: linear-gradient(81.45deg, #E6007E 48.34%, #662483 163.78%);
+  font-family: "Poppins", sans-serif !important;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: transparent;
+  -webkit-background-clip: text; /* Use the background as the clip for the text */
+  background-clip: text; 
+
+  
+  
+}
+.main-textmain {
+
+  -webkit-background-clip: text;
+  text-align: center;
+  letter-spacing: 2px;
+}
+@media (max-width: 768px) {
+  .main-text2{
+    font-size: 10px !important;
+  }
+  .main-textmain{
+    padding: 8px 20px;
+  }
+}

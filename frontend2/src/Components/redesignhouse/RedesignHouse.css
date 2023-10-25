@@ -1,0 +1,114 @@
+.redesign-house {
+  padding: 2rem 0rem;
+  background-color: transparent;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+
+  margin: 0 auto;
+}
+
+.img123 {
+  width: 100%;
+  height: auto;
+}
+
+.redesign-house-heading {
+  font-size: 38px;
+  font-weight: 400;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.redesign-house-description {
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.redesign {
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.redesign-house-images {
+  /* position: absolute; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* margin-left: 27rem; */
+}
+
+.image-container1 {
+  position: relative !important;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 38%;
+  left: 43%;
+}
+
+@media (max-width: 768px) {
+  .redesign-house {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+    height: auto;
+
+    border-radius: 12;
+    flex-direction: column;
+  }
+
+  .redesign-house-heading {
+    margin-top: 2rem;
+    position: static;
+    font-size: 35px;
+    height: auto;
+    margin-right: 0;
+    text-align: center;
+  }
+  .redesign-house-description {
+    font-size: 12px;
+    text-align: center;
+  }
+  .redesign-house {
+    padding: 2rem 1rem;
+  }
+  .left-box > div {
+    width: 100% !important;
+  }
+  .left-box > div > div {
+    width: 100% !important;
+  }
+
+  .redesign-house-images {
+    position: static;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img123 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .overlay-image {
+    position: absolute;
+    top: 32%;
+    left: 41.5%;
+  }
+}
+.col {
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  margin-left: 8rem;
+}
+.housebox{
+  width: 159%;
+  height: 26rem;
+  margin-top: 0.5rem;
+  
+}

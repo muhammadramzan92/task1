@@ -1,0 +1,135 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.textgr {
+
+  background: linear-gradient(81.92deg, #F9B233 46.89%, #F6A250 48.21%, #F0856D 50.62%, #ED6979 53.1%, #EA4C7D 55.59%, #E8327E 58.12%, #E7187E 60.69%, #E6007E 63.32%, #E6007E 66.12%, #662483 88.29%, #009FE3 110.87%);
+  color: transparent;
+  -webkit-background-clip: text;
+  /* Use the background as the clip for the text */
+  background-clip: text;
+
+}
+
+.round-box {
+  position: absolute;
+  left: 4rem;
+  bottom: 41rem;
+  background: #bf8db373;
+  border-radius: 100px;
+  filter: blur(100px);
+
+  height: 13rem;
+  width: 11rem;
+}
+
+.round-box12 {
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  background: #bf8db373;
+  border-radius: 100px;
+  filter: blur(100px);
+  height: 6rem;
+  width: 8rem;
+}
+
+.round-box13 {
+  position: absolute;
+  left: 6rem;
+  bottom: 6rem;
+  background: #bf8db373;
+  border-radius: 100px;
+  filter: blur(100px);
+  height: 8rem;
+  width: 11rem;
+}
+
+.round-box14 {
+  position: absolute;
+  right: 6rem;
+  bottom: 6rem;
+  background: #bf8db373;
+  border-radius: 100px;
+  filter: blur(71px);
+  height: 8rem;
+  width: 11rem;
+}
+
+.copyright {
+  color: #000000;
+  margin-left: 4rem;
+}
+
+.login-link a {
+  text-decoration: none;
+  color: black;
+  margin-right: 3rem;
+  font-size: 13px;
+}
+
+.login-link a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .copyright {
+    width: 200px;
+    margin: 10px;
+  }
+
+  .round-box {
+    display: none;
+  }
+
+  .round-box-none {
+    display: none;
+  }
+
+  .login-link {
+    display: flex;
+    flex-direction: inherit;
+  }
+
+  .login-link a {
+    text-decoration: none;
+    color: black;
+    margin-right: 0;
+  }
+
+  .lorem-text {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .lorem-text2 {
+    line-height: 0;
+  }
+
+  .main-text1 {
+    font-size: 10px !important;
+  }
+
+  .navbar-dark .navbar-nav .nav-link12 {
+    color: #cb0d7f !important;
+    margin-left: 0;
+  }
+
+  .navbar-dark .navbar-nav .nav-link1 {
+    margin-left: 0;
+
+  }
+}

@@ -1,0 +1,158 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 20px;
+}
+.crd {
+  text-decoration: none;
+  text-decoration-color: black;
+  color: black;
+}
+.dropdown-content {
+  position: absolute;
+  z-index: 11111;
+  top: 100%;
+  right: 1rem;
+  width: 15rem;
+
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+  max-height: 55px;
+  margin-left: 4rem!important;
+}
+
+.el {
+  color: #bd0c80;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+  margin-right: 29rem;
+}
+
+.el1 {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  position: absolute;
+  margin-left: 18rem;
+}
+
+.navbar-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lloggedInText {
+  font-size: 14px;
+  padding: 5px 19px;
+  color: white;
+  background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+  align-items: flex-start;
+}
+.logedtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-right: 1rem;
+  margin-top: 10px;
+  background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link1 {
+  color: #cb0d7f !important;
+  margin-left: 1rem;
+}
+.navbar-dark .navbar-nav .nav-link12 {
+  color: #cb0d7f !important;
+  margin-left: 5rem;
+}
+.margin-left {
+  margin-left: 1rem;
+}
+.navbar-dark .navbar-toggler {
+  color: black !important;
+  border-color: black !important;
+}
+.btn-login {
+  background: linear-gradient(81.45deg, #E6007E 48.34%, #662483 163.78%);
+
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px !important;
+  color: white;
+  cursor: pinter;
+  /* font-weight: bold; */
+  font-family: "Poppins", sans-serif !important;
+  margin-right: 3rem;
+  font-weight: 500;
+  /* width: 40%; */
+  font: 100;
+}
+
+.btn-login:hover {
+  background: linear-gradient(180deg, #E6007E 48.34%, #662483 163.78%)!important;
+  color: #ffffff;
+}
+
+.el:hover {
+  text-decoration: none;
+  color: #861b82;
+}
+
+.el1:hover {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 770px) {
+  .navbar {
+    z-index: 1;
+  }
+  .dropdown-content {
+    z-index: 99;
+    width: 100%;
+  }
+ 
+  .logedtext {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 120px;
+    background-color: black;
+  }
+  .loggedInText {
+    font-size: 10px;
+  }
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .lloggedInText {
+    padding: 2px 2px;
+    /* color: white; */
+    /* background-color: black; */
+  }
+  .btn-login {
+    padding: 8px 16px;
+    margin-right: 0.5rem;
+  }
+  .navbar-logo {
+    /* width: 25px; */
+    align-items: first baseline;
+  }
+  .ml-bvv {
+    margin-top: 3rem;
+  }
+  .navbar-logo img {
+    max-height: 40px;
+    margin-left: 0 !important;
+  }
+}

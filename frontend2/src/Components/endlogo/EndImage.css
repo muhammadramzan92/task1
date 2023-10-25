@@ -1,0 +1,75 @@
+/* Default styles for larger screens */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+.end-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  /* margin-left: 1rem; */
+}
+
+.center-logo {
+  width: auto;
+  height: 80px;
+  margin-bottom: 10px;
+  margin-top: 10rem;
+}
+
+.lorem-text {
+  color : rgba(93, 93, 93, 1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+
+  text-align: center;
+  
+}
+.lorem-text2 {
+  color : rgb(10, 10, 10);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+
+  text-align: center;
+  
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .end-image-container {
+    height: 70vh;
+    margin-left: 0; /* Remove left margin on smaller screens */
+  }
+
+  .center-logo {
+    height: 50px; /* Reduce logo size for smaller screens */
+    margin-top: 6rem; /* Adjust logo margin for smaller screens */
+  }
+}
+
+/* Responsive adjustments for even smaller screens */
+@media (max-width: 576px) {
+  .end-image-container {
+    height: auto; /* Let content dictate container height */
+  }
+
+  .center-logo {
+    height: 50px; /* Further reduce logo size for very small screens */
+    margin-top: 3rem; /* Adjust logo margin for very small screens */
+  }
+
+}
+@media (max-width: 578px) {
+ .top-set{
+  margin-top: 3rem;
+ }
+ .lorem-text {
+  font-size: 12px;
+}
+}
